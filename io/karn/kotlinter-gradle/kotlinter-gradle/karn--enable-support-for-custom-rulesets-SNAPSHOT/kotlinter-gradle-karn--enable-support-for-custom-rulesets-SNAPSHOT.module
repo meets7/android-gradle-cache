@@ -1,0 +1,119 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "7.5.1"
+    }
+  },
+  "component" : {
+    "group" : "io.karn",
+    "module" : "kotlinter-gradle",
+    "version" : "karn--enable-support-for-custom-rulesets-SNAPSHOT",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "apiElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.environment" : "standard-jvm",
+      "org.gradle.jvm.version" : "8",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-api",
+      "org.jetbrains.kotlin.platform.type" : "jvm"
+    },
+    "dependencies" : [ {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib-jdk8",
+      "version" : {
+        "requires" : "1.7.10"
+      }
+    } ],
+    "files" : [ {
+      "name" : "kotlinter-gradle-karn--enable-support-for-custom-rulesets-SNAPSHOT.jar",
+      "url" : "kotlinter-gradle-karn--enable-support-for-custom-rulesets-SNAPSHOT.jar",
+      "size" : 127318,
+      "sha512" : "8e00910938a5068ce870dc6606b305794932658c4af4f837bfeb744d73cc8cf8b39a388a4ef5d0f359a0703ca28ad0fe4877111010d1f09e9b48980896f8daae",
+      "sha256" : "011579d6be4037ccfdac5b8277e4e9d9df59eedac7be85667ddd68e0402c230d",
+      "sha1" : "ee9675a8701b17f75d10117cee476c3f8af536ac",
+      "md5" : "3642c6f1cc897a8667edd9ab9b7d31c5"
+    } ]
+  }, {
+    "name" : "runtimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.environment" : "standard-jvm",
+      "org.gradle.jvm.version" : "8",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime",
+      "org.jetbrains.kotlin.platform.type" : "jvm"
+    },
+    "dependencies" : [ {
+      "group" : "com.pinterest.ktlint",
+      "module" : "ktlint-core",
+      "version" : {
+        "requires" : "0.47.1"
+      }
+    }, {
+      "group" : "com.pinterest.ktlint",
+      "module" : "ktlint-reporter-checkstyle",
+      "version" : {
+        "requires" : "0.47.1"
+      }
+    }, {
+      "group" : "com.pinterest.ktlint",
+      "module" : "ktlint-reporter-json",
+      "version" : {
+        "requires" : "0.47.1"
+      }
+    }, {
+      "group" : "com.pinterest.ktlint",
+      "module" : "ktlint-reporter-html",
+      "version" : {
+        "requires" : "0.47.1"
+      }
+    }, {
+      "group" : "com.pinterest.ktlint",
+      "module" : "ktlint-reporter-plain",
+      "version" : {
+        "requires" : "0.47.1"
+      }
+    }, {
+      "group" : "com.pinterest.ktlint",
+      "module" : "ktlint-reporter-sarif",
+      "version" : {
+        "requires" : "0.47.1"
+      }
+    }, {
+      "group" : "com.pinterest.ktlint",
+      "module" : "ktlint-ruleset-experimental",
+      "version" : {
+        "requires" : "0.47.1"
+      }
+    }, {
+      "group" : "com.pinterest.ktlint",
+      "module" : "ktlint-ruleset-standard",
+      "version" : {
+        "requires" : "0.47.1"
+      }
+    }, {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib-jdk8",
+      "version" : {
+        "requires" : "1.7.10"
+      }
+    } ],
+    "files" : [ {
+      "name" : "kotlinter-gradle-karn--enable-support-for-custom-rulesets-SNAPSHOT.jar",
+      "url" : "kotlinter-gradle-karn--enable-support-for-custom-rulesets-SNAPSHOT.jar",
+      "size" : 127318,
+      "sha512" : "8e00910938a5068ce870dc6606b305794932658c4af4f837bfeb744d73cc8cf8b39a388a4ef5d0f359a0703ca28ad0fe4877111010d1f09e9b48980896f8daae",
+      "sha256" : "011579d6be4037ccfdac5b8277e4e9d9df59eedac7be85667ddd68e0402c230d",
+      "sha1" : "ee9675a8701b17f75d10117cee476c3f8af536ac",
+      "md5" : "3642c6f1cc897a8667edd9ab9b7d31c5"
+    } ]
+  } ]
+}

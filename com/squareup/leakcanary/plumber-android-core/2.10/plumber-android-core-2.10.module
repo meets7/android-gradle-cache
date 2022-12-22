@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.squareup.leakcanary",
+    "module": "plumber-android-core",
+    "version": "2.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.leakcanary",
+          "module": "shark-log",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup.leakcanary",
+          "module": "leakcanary-android-utils",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plumber-android-core-2.10.aar",
+          "url": "plumber-android-core-2.10.aar",
+          "size": 85643,
+          "sha512": "822f7e7629261ba449860671c548147a496cb37219a33a76c9e72adf119da8c2cf935708b0ff871c0f953884585133a1f2f9c1a3d4f431231469b414ac7824e8",
+          "sha256": "909c0ab2fbff6f71242edcabd0f3691b563edb0bf50fc0156e0f5215f0fc56f5",
+          "sha1": "acd4fa30369ab6b0b09ce0b800adf618725ab80f",
+          "md5": "1a9801c921bc112669a7c853f30be4f4"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.leakcanary",
+          "module": "shark-log",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup.leakcanary",
+          "module": "leakcanary-android-utils",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.squareup.curtains",
+          "module": "curtains",
+          "version": {
+            "requires": "1.2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plumber-android-core-2.10.aar",
+          "url": "plumber-android-core-2.10.aar",
+          "size": 85643,
+          "sha512": "822f7e7629261ba449860671c548147a496cb37219a33a76c9e72adf119da8c2cf935708b0ff871c0f953884585133a1f2f9c1a3d4f431231469b414ac7824e8",
+          "sha256": "909c0ab2fbff6f71242edcabd0f3691b563edb0bf50fc0156e0f5215f0fc56f5",
+          "sha1": "acd4fa30369ab6b0b09ce0b800adf618725ab80f",
+          "md5": "1a9801c921bc112669a7c853f30be4f4"
+        }
+      ]
+    }
+  ]
+}

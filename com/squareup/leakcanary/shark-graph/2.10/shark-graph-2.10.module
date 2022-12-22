@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.squareup.leakcanary",
+    "module": "shark-graph",
+    "version": "2.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.leakcanary",
+          "module": "shark-hprof",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shark-graph-2.10.jar",
+          "url": "shark-graph-2.10.jar",
+          "size": 165437,
+          "sha512": "a7173d4f27dd43df3fd743be10ca06ea89217f3bbd39a9c19232e77d86c22d7e470110f22d9c35867b2ec6185deffeedf267807103b5ec031eb1aec2e8fd8bcc",
+          "sha256": "619afcadd00a84ab0336dde3d985dfdfe5f86e432543f8a96972194579c1831d",
+          "sha1": "e9e78df8ce773a85adc90b35582aa62163f2d6a8",
+          "md5": "6c19e8cbe8a71cbb10329f28b3a336e4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "2.2.2"
+          }
+        },
+        {
+          "group": "com.squareup.leakcanary",
+          "module": "shark-hprof",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shark-graph-2.10.jar",
+          "url": "shark-graph-2.10.jar",
+          "size": 165437,
+          "sha512": "a7173d4f27dd43df3fd743be10ca06ea89217f3bbd39a9c19232e77d86c22d7e470110f22d9c35867b2ec6185deffeedf267807103b5ec031eb1aec2e8fd8bcc",
+          "sha256": "619afcadd00a84ab0336dde3d985dfdfe5f86e432543f8a96972194579c1831d",
+          "sha1": "e9e78df8ce773a85adc90b35582aa62163f2d6a8",
+          "md5": "6c19e8cbe8a71cbb10329f28b3a336e4"
+        }
+      ]
+    }
+  ]
+}

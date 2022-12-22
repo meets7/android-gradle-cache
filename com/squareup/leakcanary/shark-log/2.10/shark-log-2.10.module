@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.squareup.leakcanary",
+    "module": "shark-log",
+    "version": "2.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "shark-log-2.10.jar",
+          "url": "shark-log-2.10.jar",
+          "size": 2410,
+          "sha512": "bde43a29060f7602859c23e119c13fb03033922dad79d554988d563df08caaef69514793535d524e1610d4587155196657c0ef5b7b3ca6cc6b9efae1f9cb4275",
+          "sha256": "9db2984a79130058ca2f9eee41ee998ebaa0641654d6180c76445af410968fcc",
+          "sha1": "91b34759b85e0bb6922607f306dfa0cd50fac5a1",
+          "md5": "5e9a4d95afd5558a2c535a56221b35b6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shark-log-2.10.jar",
+          "url": "shark-log-2.10.jar",
+          "size": 2410,
+          "sha512": "bde43a29060f7602859c23e119c13fb03033922dad79d554988d563df08caaef69514793535d524e1610d4587155196657c0ef5b7b3ca6cc6b9efae1f9cb4275",
+          "sha256": "9db2984a79130058ca2f9eee41ee998ebaa0641654d6180c76445af410968fcc",
+          "sha1": "91b34759b85e0bb6922607f306dfa0cd50fac5a1",
+          "md5": "5e9a4d95afd5558a2c535a56221b35b6"
+        }
+      ]
+    }
+  ]
+}
